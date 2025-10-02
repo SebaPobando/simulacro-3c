@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#sesion {
+    display: flex;
+    flex-flow: row wrap;
+    border: 3px solid black;
+    justify-content: space-between;
+    height: 10vh;
+}
+
+#libroteca {
+    display: flex;
+    flex-flow: row wrap;
+    width: 15%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#botones-sesion {
+    display: flex;
+    flex-flow: row wrap;
+    width: 25%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#iniciar-sesion {
+    color: white;
+    background-color: #085394;
+    width: 35%;
+    height: 35%;
+    box-shadow: 2px 2px 5px black;
+    font-weight: bold;
+}
+
+#registrarse {
+    color: black;
+    background-color: #9fc5f8;
+    font-weight: bold;
+    box-shadow: 2px 2px 5px black;
+    width: 25%;
+    height: 35%;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+#menu {
+    display: flex;
+    flex-flow: row wrap;
+    height: 12vh;
+    align-items: center;
+    justify-content: space-around;
+}
+
+a {
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.menu-item {
+    display: flex;
+    flex-flow: row wrap;
+    width: 20%;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+
+#libros {
+    display: flex;
+    flex-flow: row wrap;
+    height: 10vh;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #9fc5f8;
+}
+
+#todos-libros {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    background-color: #dddddd;
+}
